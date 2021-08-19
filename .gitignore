@@ -1,0 +1,10 @@
+.vscode
+node_modules
+package-lock.json
+public
+
+config/database.json
+config/tgLogs.json
+config/core.json
+config/tgLogs.json
+config/tg.json

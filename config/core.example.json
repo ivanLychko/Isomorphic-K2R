@@ -1,0 +1,26 @@
+{
+    "port": 4001,
+  
+    "bodyParser": {
+      "formidable": {
+        "maxFieldsSize": 31457280,
+        "maxFields": 20
+      },
+      "jsonLimit": "10mb",
+      "textLimit": "10mb",
+      "xmlLimit": "10mb",
+      "multipart": true,
+      "urlencoded": true
+    },
+    "session": {
+      "keys": ["", ""]
+    },
+    "render": {
+      "layout": false,
+      "viewExt": "html",
+      "delimiter": "?",
+      "async": true,
+      "cache": true,
+      "debug": false
+    }
+  }

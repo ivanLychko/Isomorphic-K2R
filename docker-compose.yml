@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  node:
+    image: adminer-tg-bots
+    container_name: adminer-tg-bots
+    build:
+      context: .
+    hostname: adminer-tg-bots
+    restart: always
+    ports:
+      - "127.0.0.1:4002:4002"
+    logging:
+      driver: json-file
+      options:
+        max-size: 50m
+        max-file: "5"

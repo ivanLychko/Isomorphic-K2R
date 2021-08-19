@@ -1,0 +1,9 @@
+{
+  "host" : "localhost",
+  "dialect" : "mysql",
+  "database" : "K2R",
+  "username" : "root",
+  "password" : "example",
+  "timezone": "+03:00",
+  "logging" :  false
+}
