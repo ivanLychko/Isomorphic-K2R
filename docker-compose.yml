@@ -2,14 +2,14 @@ version: '2'
 
 services:
   node:
-    image: adminer-tg-bots
-    container_name: adminer-tg-bots
+    image: isomorphic-K2R
+    container_name: isomorphic-K2R
     build:
       context: .
-    hostname: adminer-tg-bots
+    hostname: isomorphic-K2R
     restart: always
     ports:
-      - "127.0.0.1:4002:4002"
+      - "127.0.0.1:4001:4001"
     logging:
       driver: json-file
       options:
