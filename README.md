@@ -1,4 +1,4 @@
-# Isomorphic Koa2-Reat
+# Isomorphic Koa2-React
 
 
 This is my personal experience, you can use it for yourself if you want.
